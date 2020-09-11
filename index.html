@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Calculator</title>
+</head>
+<body>
+    <div class="headder">
+        <h1>Dynamic Calculator</h1>
+    </div>
+    <div class="form-container">
+        <p>Item: <input type="text" class="valid" id="fItem" name="fItem"></p>
+        <p>Price: <input type="text" class="valid" id="fPrice" name="fPrice"></p>
+        <input type="button" id="fButton" value="Add Item">
+    </div>
+
+    <p id="list-title">Your Items</p>
+    <div class="list-container">
+        <ul class="list" id="list">
+            
+        </ul>
+    </div>
+    <div class="calculator">
+        <p>Total cost:</p>
+        <p id="cost">0</p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
