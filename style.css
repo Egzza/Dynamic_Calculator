@@ -1,9 +1,10 @@
 html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FBFFFE;
 }
 
 .headder{
-    background-color: bisque;
+    background-color: #FAA916;
     padding: 10px 10px 10px 10px;
     margin-bottom: 15px;
 }
@@ -16,10 +17,13 @@ html{
 
 .list-container{
     width: 35%;
-    background-color: lightgrey;
+    background-color: #E2EFDE;
     border-style: solid;
-    border-color: black;
+    border-color: #6D676E;
     border-width: 2px;
+}
+#list-title{
+    margin-left: 9px;
 }
 
 .list{
@@ -55,6 +59,7 @@ html{
 .calculator{
     display: flex;
     flex-direction: row; 
+    padding-left: 9px;
 }
 
 #cost{
@@ -66,8 +71,10 @@ html{
 }
 
 .invalid{
-    border-width: 2px;
-    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2px;;
+    border-color: #96031A;
 }
 
 .valid{
